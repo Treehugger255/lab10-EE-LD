@@ -1,3 +1,6 @@
+# https://github.com/Treehugger255/lab10-EE-LD
+# Partner 1: Ethan Eschrich
+# Partner 2: Luke Dunham
 import unittest
 from calculator import *
 
@@ -45,7 +48,7 @@ class TestCalculator(unittest.TestCase):
     ######## Partner 1
     def test_log_invalid_argument(self): # 1 assertion
         with self.assertRaises(ValueError):
-            log(0, 5)
+            logarithm(0, 5)
 
     def test_hypotenuse(self): # 3 assertions
         self.assertAlmostEqual(hypotenuse(1,1), 2 ** 0.5)

@@ -1,3 +1,6 @@
+# https://github.com/Treehugger255/lab10-EE-LD
+# Partner 1: Ethan Eschrich
+# Partner 2: Luke Dunham
 """
 calculator.py
 - Defines functions used to create a simple calculator
